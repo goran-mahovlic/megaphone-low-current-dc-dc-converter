@@ -425,7 +425,7 @@
 				)
 			)
 		)
-		(symbol "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183"
+		(symbol "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -445,7 +445,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183"
+			(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -463,7 +463,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generated using footprint-gen .. 7 14 5 M8183"
+			(property "Description" "Generated using footprint-gen .. 7 14 6 M8187"
 				(at 0 0 0)
 				(effects
 					(font
@@ -472,7 +472,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MegaCastle2x8-Module-I7.0x15.5-M8183_0_1"
+			(symbol "MegaCastle2x8-Module-I7.0x15.5-M8187_0_1"
 				(rectangle
 					(start -6.35 11.43)
 					(end 7.62 -11.43)
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(symbol "MegaCastle2x8-Module-I7.0x15.5-M8183_1_1"
+			(symbol "MegaCastle2x8-Module-I7.0x15.5-M8187_1_1"
 				(text "REAR ZONE"
 					(at 0.5 0 900)
 					(effects
@@ -516,6 +516,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1301,7 +1319,7 @@
 	)
 	(global_label "SEL1V8"
 		(shape input)
-		(at 138.43 63.5 0)
+		(at 92.71 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1311,7 +1329,7 @@
 		)
 		(uuid "119b535b-292e-4447-aafa-15e899d6d546")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.3094 63.5 0)
+			(at 102.5894 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1407,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 124.46 45.72 180)
+		(at 78.74 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1399,7 +1417,7 @@
 		)
 		(uuid "50551065-706d-4840-b130-771fa9de9367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.06 45.72 0)
+			(at 71.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1429,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 138.43 60.96 0)
+		(at 92.71 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1421,7 +1439,7 @@
 		)
 		(uuid "7071f702-1092-43ad-80b9-649b105a4625")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.8947 60.96 0)
+			(at 98.1747 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1451,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 138.43 45.72 0)
+		(at 92.71 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1443,7 +1461,7 @@
 		)
 		(uuid "78122fa6-1116-419e-98d5-1bd395707967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.1324 45.72 0)
+			(at 100.4124 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1495,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 124.46 63.5 180)
+		(at 78.74 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1487,7 +1505,7 @@
 		)
 		(uuid "dfabfccc-333e-45ae-b75c-d695be0401e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.6043 63.5 0)
+			(at 71.8843 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,6 +1528,28 @@
 		(uuid "e36f7793-56d8-4bf5-9f3c-45321a387121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.7324 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MODE"
+		(shape input)
+		(at 92.71 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff08a2c9-504d-4394-ab42-374ca05594a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8961 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,6 +1892,86 @@
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187")
+		(at 85.09 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "796a6929-a06f-43b0-8596-491015e8387b")
+		(property "Reference" "M2"
+			(at 85.725 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 85.725 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187-PANEL-NIBBLE"
+			(at 85.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generated using footprint-gen .. 7 14 6 M8187"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "ffc64b52-0a0c-481b-a07b-0f840efc741b")
+		)
+		(pin "16"
+			(uuid "09b37019-198a-4f49-85d6-02bcb8d65c9c")
+		)
+		(pin "8"
+			(uuid "7a4be9cb-cfd6-406c-9e53-257873edbfb1")
+		)
+		(pin "1"
+			(uuid "2e744e4e-d122-4aea-9338-e2b8e60c186b")
+		)
+		(pin "15"
+			(uuid "36687194-4642-48bc-846c-5c1bad41e89f")
+		)
+		(pin "9"
+			(uuid "61d01a06-f39f-40d5-9c31-9946bdc86130")
+		)
+		(instances
+			(project ""
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -2409,83 +2529,6 @@
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183")
-		(at 130.81 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e47e0a79-811c-4c6f-8346-cdcd911c8264")
-		(property "Reference" "M1"
-			(at 131.445 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 131.445 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183-PANEL-NIBBLE"
-			(at 130.81 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generated using footprint-gen .. 7 14 5 M8183"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc698ee-fe70-4cd3-87b5-68fce8a45e23")
-		)
-		(pin "8"
-			(uuid "1d7c5817-b4f7-48e2-ade1-b303d31464b1")
-		)
-		(pin "9"
-			(uuid "76e42d3e-8127-4e50-974c-f2d23e95ac53")
-		)
-		(pin "16"
-			(uuid "c0ffbd83-34a7-4b20-a38e-dc285ed03c34")
-		)
-		(pin "15"
-			(uuid "12cb61c8-8f37-49b1-a1cd-edb9c6401d5e")
-		)
-		(instances
-			(project ""
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "M1")
 					(unit 1)
 				)
 			)
