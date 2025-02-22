@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MPPT Charge Controller.kicad_pro",
+    "filename": "megaphone-low-current-dc-dc-converter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -499,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "MPPT Charge Controller-Gerbers -20250219/",
+      "plot": "megaphone-low-current-dc-dc-converter-Gerbers -20250219/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

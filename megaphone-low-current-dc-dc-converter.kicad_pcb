@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "MPPT Charge Controller")
+		(title "megaphone-low-current-dc-dc-converter")
 		(rev "0.2")
 	)
 	(layers
@@ -144,7 +144,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "MPPT Charge Controller-Gerbers -20250219/")
+			(outputdirectory "megaphone-low-current-dc-dc-converter-Gerbers -20250219/")
 		)
 	)
 	(net 0 "")
@@ -347,7 +347,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3cba05d1-17fe-4350-a6d5-fd8547faf83b")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -626,7 +626,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dfafb9e8-26f8-4850-81be-80d2906af6e2")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -876,7 +876,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/6484ed1b-6faa-45fd-8f5d-4ed166f756d3")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files)
 		(net_tie_pad_groups "1, 2")
@@ -1160,7 +1160,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9m*P1.27mm*")
 		(path "/860bc8d9-55c8-406e-a4d3-d10d5d531441")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -2.56)
@@ -1526,7 +1526,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8b5e74fe-6b97-455f-b0d9-ef733671107c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -1766,7 +1766,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/502ded66-c56a-4780-91ee-728d588dc1e3")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2038,7 +2038,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a32e0195-8931-487d-844e-e5f06467e6a1")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2296,7 +2296,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/d8c21cee-ac9a-4352-a3b7-97ba98df5e3d")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 -2.11)
@@ -2638,7 +2638,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6a792903-418c-4762-b2fb-072479a24250")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -3007,7 +3007,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/983145dd-36d8-465e-916a-dcafc04a003c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3270,7 +3270,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9m*P1.27mm*")
 		(path "/429b3256-913c-4d33-8429-1ab1c732de84")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -2.56)
@@ -3649,7 +3649,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0b1e7e53-5ea3-4625-9de8-c2e40ee78d91")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -3920,7 +3920,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f5b7ff1d-c126-46a2-a8cc-211467f130af")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4181,7 +4181,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/81e2ff91-5bd2-4fd7-9ead-4bc7b28cf26f")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -4431,7 +4431,7 @@
 		(property ki_fp_filters "SO* SOIC*")
 		(path "/8a987b87-9b2b-4f52-96c7-c74dfd9e6f65")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.945 -2.57)
@@ -4778,7 +4778,7 @@
 		)
 		(path "/e38da7c3-df27-4a03-be5b-85d0f1dc2b80")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -15 26.81)
@@ -5669,7 +5669,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f4007660-8a42-4cf7-b8a0-092d550a3dd5")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -5907,7 +5907,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/a9528db3-930b-4dd6-9915-ad6af10a5e9d")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files)
 		(net_tie_pad_groups "1, 2")
@@ -6190,7 +6190,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5331952d-cae7-422a-b167-b7b612a2442c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -6442,7 +6442,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8ed53e4-a17f-4585-a15b-0e751216d13a")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -6729,7 +6729,7 @@
 		(property ki_fp_filters "TSOT?23*")
 		(path "/08c481ea-16f1-43f1-a300-b32e8e97ca0c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -7527,7 +7527,7 @@
 		(property ki_fp_filters "Adafruit*Feather*")
 		(path "/39c4609f-4702-4512-bc2f-912ba169e333")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(clearance 0.2)
 		(attr through_hole)
 		(fp_line
@@ -8257,7 +8257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/38791b34-ca15-4ada-a671-ea75ffb3c5cc")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8501,7 +8501,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e90937d2-c7ab-4a6c-af43-e2a2bc2deef7")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8691,7 +8691,7 @@
 			)
 		)
 	)
-	(footprint "MPPT Charge Controller Footprint Library:L_Vishay_6.9x6.5"
+	(footprint "megaphone-low-current-dc-dc-converter Footprint Library:L_Vishay_6.9x6.5"
 		(layer "F.Cu")
 		(uuid "88a3a339-a060-433b-bed2-9873aefc89ca")
 		(at 114.375 91.7 -90)
@@ -8720,7 +8720,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "MPPT Charge Controller Footprint Library:L_Vishay_6.9x6.5"
+		(property "Footprint" "megaphone-low-current-dc-dc-converter Footprint Library:L_Vishay_6.9x6.5"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8762,7 +8762,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/95deb90e-7d3c-4056-ae49-d4b5234652d6")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -3.5 -3.3)
@@ -8938,7 +8938,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3ba415d7-9254-4d99-957b-b82f22dd85a6")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -9191,7 +9191,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3dae0b36-dd10-4c1a-9f54-f5097e4abbea")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -9462,7 +9462,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f606eefc-d21c-49a7-b960-aa1083fe334f")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -9779,7 +9779,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7b203bf7-3c99-45bf-bcf0-f4138a30b58d")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10054,7 +10054,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0535ea9d-469b-4ed1-9bdd-c126f47c00e2")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10316,7 +10316,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6a0c93a9-c8f9-4cdc-928d-f0e99c345042")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -10591,7 +10591,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4b929e6a-5279-400f-a118-0fe49d9fdb78")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -10899,7 +10899,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/590fa781-aa82-4911-b56f-ca4e14d11e1f")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -11252,7 +11252,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d742d3a4-5571-4142-bfc4-07614fadeaf0")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -11502,7 +11502,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/79d42051-34c6-4ef3-b313-a0b7a0272750")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -11807,7 +11807,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/309ae8db-1650-4f79-a99c-05ca6e539c34")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.81 2.125)
@@ -12070,7 +12070,7 @@
 			)
 		)
 	)
-	(footprint "MPPT Charge Controller Footprint Library:VQFN-16_EP_3.5x3.5_Pitch0.5mm"
+	(footprint "megaphone-low-current-dc-dc-converter Footprint Library:VQFN-16_EP_3.5x3.5_Pitch0.5mm"
 		(layer "F.Cu")
 		(uuid "ec97c39c-83a4-484e-9eb8-8ea4a9bff0db")
 		(at 107.625 97.45)
@@ -12114,7 +12114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MPPT Charge Controller Footprint Library:VQFN-16_EP_3.5x3.5_Pitch0.5mm"
+		(property "Footprint" "megaphone-low-current-dc-dc-converter Footprint Library:VQFN-16_EP_3.5x3.5_Pitch0.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12155,7 +12155,7 @@
 		)
 		(path "/9804febd-c8f3-478c-b9bf-b7b924323716")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.9 1.9)
@@ -12724,7 +12724,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0d36937f-29d2-4549-8c3d-e45d6566a6a6")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -13038,7 +13038,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/d26e49da-eaac-42f8-a42a-acee08e9565c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -13147,7 +13147,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b888a964-ae39-4778-84de-9d9c98c7740e")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -13419,7 +13419,7 @@
 		(property ki_fp_filters "*SC?70*")
 		(path "/de53fcc6-ed37-4ea6-9a28-8ffe1c54f03e")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 1.16)
@@ -13774,7 +13774,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/645656ff-f304-479e-aac9-12d27aa649a4")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -14049,7 +14049,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8483f07-9b09-44a1-a239-0250574b1c0e")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -14369,7 +14369,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/d9e67500-8bce-4774-9d5e-7db0b2eb3fac")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -14478,7 +14478,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8e3041a-b9aa-4bd9-95b8-345c8f8a9f95")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -14780,7 +14780,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/870c5411-7542-429a-ad11-7b0f9c756171")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -15095,7 +15095,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3af96134-6e89-4c54-988d-ccc58cab9387")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -15388,7 +15388,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/4c3e0547-9093-4d99-9233-46f3de717a6a")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 -1.56)
@@ -15726,7 +15726,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68fab608-3eea-448a-b220-f3981d2c0dfb")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -16047,7 +16047,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/f66c4db5-a3d2-4aa7-a835-627840b9e42c")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -16222,7 +16222,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/cc0c8b5b-8b20-4442-b1dd-7584dbb648cd")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
@@ -16331,7 +16331,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/59e70de1-b13b-421f-9d8c-cbbe85794200")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -16697,7 +16697,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/bd1f7331-4b38-4fe8-ac05-c739ad242c66")
 		(sheetname "Root")
-		(sheetfile "MPPT Charge Controller.kicad_sch")
+		(sheetfile "megaphone-low-current-dc-dc-converter.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 1.56)
