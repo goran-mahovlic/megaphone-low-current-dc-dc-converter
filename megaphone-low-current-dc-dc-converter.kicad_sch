@@ -304,6 +304,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -476,226 +597,38 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:AP63203WU"
+		(symbol "TPS631000DRLR:TPS631000DRLR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -10.16 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "AP63203WU"
-				(at 2.54 6.35 0)
+			(property "Value" "TPS631000DRLR"
+				(at -10.16 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(property "Footprint" "TPS631000DRLR:SOT50P160X60-8N"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "2A Buck DC/DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP63203WU_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP63203WU_1_1"
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -708,7 +641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,68 +650,288 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+			(property "SNAPEDA_PACKAGE_ID" "124400"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+			(property "Package" "SOT-583 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS631000DRLR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            1.5-A output current, high-power-density buck-boost converter\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS631000DRLR_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "VOUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "LX2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "LX1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -919,300 +1072,258 @@
 		)
 	)
 	(junction
-		(at 76.2 43.18)
+		(at 90.17 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2dc86374-adfc-4445-8d7f-6c808c28efd9")
+		(uuid "1be96301-09be-46ec-86f5-226f8f84e267")
 	)
 	(junction
-		(at 90.17 43.18)
+		(at 90.17 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "404ab4ae-644c-4796-8b4a-9d932ec73f8b")
+		(uuid "1d2752b2-8e6d-4e2f-9a7a-337f804b40ef")
 	)
 	(junction
-		(at 90.17 64.77)
+		(at 46.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d7456f6-5d51-4676-8875-44173b9f6bbd")
+		(uuid "58c81943-251c-4ce5-b7f7-50fff59147c9")
 	)
 	(junction
-		(at 101.6 43.18)
+		(at 39.37 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9297005e-eac5-4ac5-8758-cf9c1af776c8")
+		(uuid "78e8a75c-73cf-405d-a935-33e8ca25295b")
 	)
 	(junction
-		(at 57.15 64.77)
+		(at 33.02 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a29c6ac1-3d8c-4c53-b24f-20b436beda46")
+		(uuid "e0100b20-ef9c-48ba-98d6-06ad27aab962")
 	)
 	(junction
-		(at 39.37 64.77)
+		(at 102.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bcaebe72-1994-43d3-b2eb-8dd0dd516cab")
-	)
-	(junction
-		(at 86.36 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea30c315-c4cd-459c-b24e-2c1bea37a19d")
+		(uuid "f87c4be8-86a7-4ad8-a62a-ed4b13451172")
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 101.6 64.77)
+			(xy 80.01 91.44) (xy 90.17 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "093c8d9d-558a-48c5-927e-4121bdce1a22")
+		(uuid "0332061c-caf6-4a3b-bbba-7030797f79da")
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 90.17 54.61)
+			(xy 87.63 99.06) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b2f6a75-fb7f-413b-9e05-d84c68e38937")
+		(uuid "182812a9-125c-4434-9ca1-ba10e5b22fd7")
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 86.36 59.69)
+			(xy 39.37 91.44) (xy 49.53 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "163dede4-3ef8-48b2-999e-f7cd53539e0d")
+		(uuid "1e008355-50bb-4c5a-bae5-21e45a6b733c")
 	)
 	(wire
 		(pts
-			(xy 101.6 40.64) (xy 101.6 43.18)
+			(xy 90.17 91.44) (xy 90.17 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c022060-fb49-4030-bec4-2ddd8dbcee81")
+		(uuid "2d5bf19b-b721-48ca-aac4-c0e809aaca98")
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 90.17 43.18)
+			(xy 102.87 91.44) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "224df450-08a1-471e-9c30-7be12cde7d0b")
+		(uuid "3aaac7a7-8436-4355-a85e-07c8d1a7bf38")
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 85.09 43.18)
+			(xy 46.99 93.98) (xy 46.99 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a3cb555-fad1-44d0-9672-fe35cea92d57")
+		(uuid "3cdea75b-75fd-47fe-aada-0fe36fbadd0e")
 	)
 	(wire
 		(pts
-			(xy 39.37 64.77) (xy 39.37 72.39)
+			(xy 90.17 104.14) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a3fb387-706e-43ed-a277-1997f027b887")
+		(uuid "4130f414-201a-4ad0-8525-dd34f9c4082e")
 	)
 	(wire
 		(pts
-			(xy 69.85 43.18) (xy 69.85 54.61)
+			(xy 33.02 91.44) (xy 39.37 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b50c040-ab6a-4954-9d4c-d850183ba8f4")
+		(uuid "4500a1d1-0ab8-4094-a4e4-748b38047f04")
 	)
 	(wire
 		(pts
-			(xy 77.47 43.18) (xy 76.2 43.18)
+			(xy 80.01 104.14) (xy 90.17 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c54ce83-8e0d-4956-ae21-cc7bd4d992f6")
+		(uuid "6fa5d3a1-242b-4eb8-a2d8-546e15123afe")
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 46.99)
+			(xy 39.37 91.44) (xy 39.37 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ed70284-9907-4a69-81e6-e5fa10f82396")
+		(uuid "7a8f1827-bd02-4144-a5a3-b2158cad75af")
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 90.17 46.99)
+			(xy 46.99 96.52) (xy 49.53 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d3f9502-352f-4f37-9d4d-4fd4da5f8d49")
+		(uuid "82702052-4729-4fc4-abd7-8c0dfb8d510a")
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 39.37 54.61)
+			(xy 39.37 96.52) (xy 39.37 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "844540b5-9eb6-4570-866d-62c15e25bb95")
+		(uuid "83e5aed9-e3f2-49da-9e1f-cebab9a292ff")
 	)
 	(wire
 		(pts
-			(xy 57.15 64.77) (xy 90.17 64.77)
+			(xy 39.37 96.52) (xy 46.99 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cb35958-f508-4582-84c8-8514896f75e7")
+		(uuid "969d4489-2e57-4dc5-8aa3-5d0f4cb0411d")
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 101.6 43.18)
+			(xy 22.86 91.44) (xy 33.02 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9513477b-bda5-464a-bad0-07f9d1772855")
+		(uuid "d21c3148-fef0-4a92-a960-1c3c4dc5f768")
 	)
 	(wire
 		(pts
-			(xy 69.85 54.61) (xy 67.31 54.61)
+			(xy 80.01 99.06) (xy 87.63 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "955e74d3-441c-4bcf-a233-5038f1ede946")
+		(uuid "dcdd079e-ab21-436b-b33a-27dff86f1e3c")
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 69.85 43.18)
+			(xy 90.17 91.44) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b8f71e3-f6f5-4880-af38-517233a2b6d9")
+		(uuid "ee6a7d46-94b3-4acf-a609-1f1c1ab1627c")
 	)
-	(wire
-		(pts
-			(xy 101.6 64.77) (xy 101.6 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d58e59-75fe-4762-b5d4-d735a0eadf0f")
-	)
-	(wire
-		(pts
-			(xy 76.2 43.18) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ce0fa1-6f73-4fef-9944-e7d03b4672b5")
-	)
-	(wire
-		(pts
-			(xy 76.2 57.15) (xy 76.2 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32aaf9c-34e3-452e-ba3d-3b491fd4b550")
-	)
-	(wire
-		(pts
-			(xy 39.37 54.61) (xy 46.99 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae53ee0-71e4-4ae5-95a7-3902f238f440")
-	)
-	(wire
-		(pts
-			(xy 67.31 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde18fde-aaf6-45ac-b80a-0129991b2fed")
-	)
-	(wire
-		(pts
-			(xy 67.31 59.69) (xy 86.36 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38fc761-0d29-4843-8b09-a31935cafd4c")
-	)
-	(wire
-		(pts
-			(xy 39.37 64.77) (xy 57.15 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1231f1-ca33-4687-b4db-f60d451a0ad4")
-	)
-	(text "Develop 3.3V to power the ESP32 from the input side"
+	(text "VFB = 0.5V\nR2 <= 100K. 91K recommended\n\nR1 = R2 × (VOUT / VFB - 1)\n1.8V :    R1 = R2 * (1.8 / 0.5 - 1) = R2 * 2.6   = 234K\n3.3V :    R1 = R2 * (3.3 / 0.5 - 1) = R2 * 5.6   = 511K\n\nSo SEL1V8 should tie FB to VOUT with a resistor that in\nparallel to 511K yields 234K.\n\n1/RP = 1/R + 1/R\n1/260K = 1/R + 1/511K\n1/R = 1/234K - 1/511K\n1/R = ~1/436K\nR = ~436K"
 		(exclude_from_sim no)
-		(at 70.866 70.104 0)
+		(at 26.67 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "cd98ff01-014c-49da-bb5d-9600f0d7dd99")
+		(uuid "10a32e13-57a8-4d33-9de1-28eaabfa2ab2")
 	)
-	(label "VIN"
-		(at 39.37 54.61 0)
+	(text "Actual values = 90.9K, 510K, so VFB = 0.5V at junction means\nVOUT = (1 + 510K/90.9K) * 0.5V = 3.305V\nAnd with SEL1V8 tied to VOUT:\n1/R = 1/510K + 1/432K = 233.8K\nVOUT = (1 + 233.8K/90.9K) * 0.5V = 1.79V\nClose enough..."
+		(exclude_from_sim no)
+		(at 96.012 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8433313b-0531-4e75-89ad-e7c533d9c82a")
+		(uuid "e590bfad-a965-4b52-86bc-a4bbea0ba82a")
+	)
+	(text "Tie to VOUT to select 1.8V output"
+		(exclude_from_sim no)
+		(at 124.714 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee2f29ae-4903-4b84-b83e-479815de523c")
+	)
+	(global_label "SEL1V8"
+		(shape input)
+		(at 138.43 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "119b535b-292e-4447-aafa-15e899d6d546")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.3094 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 39.37 54.61 180)
+		(at 22.86 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1222,7 +1333,7 @@
 		)
 		(uuid "180a1d23-15ab-4e8a-9120-19180fde05cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.97 54.61 0)
+			(at 15.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1345,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 46.99 59.69 180)
+		(at 49.53 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1244,7 +1355,7 @@
 		)
 		(uuid "313023b1-28a9-4e59-a258-bb438df68f5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.5253 59.69 0)
+			(at 44.0653 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,9 +1365,31 @@
 			)
 		)
 	)
+	(global_label "SEL1V8"
+		(shape input)
+		(at 124.46 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c0a7406-7beb-415f-9b17-310cda819d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.3394 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
-		(at 144.78 40.64 180)
+		(at 124.46 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1266,7 +1399,7 @@
 		)
 		(uuid "50551065-706d-4840-b130-771fa9de9367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.38 40.64 0)
+			(at 117.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,31 +1409,9 @@
 			)
 		)
 	)
-	(global_label "VOUT"
-		(shape input)
-		(at 101.6 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5416ca52-aa77-4b9e-88bc-ed7158f71230")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3024 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
-		(at 158.75 55.88 0)
+		(at 138.43 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1310,7 +1421,7 @@
 		)
 		(uuid "7071f702-1092-43ad-80b9-649b105a4625")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.2147 55.88 0)
+			(at 143.8947 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1433,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 158.75 40.64 0)
+		(at 138.43 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1332,7 +1443,7 @@
 		)
 		(uuid "78122fa6-1116-419e-98d5-1bd395707967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4524 40.64 0)
+			(at 146.1324 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,31 +1453,31 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "MODE"
 		(shape input)
-		(at 158.75 58.42 0)
+		(at 39.37 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7caa468e-89e6-4386-ada5-66ffcf9a10ab")
+		(uuid "b2f47a95-922b-49cf-b245-4d27341a6dbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4524 58.42 0)
+			(at 31.1839 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GND"
 		(shape input)
-		(at 144.78 58.42 180)
+		(at 124.46 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1376,7 +1487,7 @@
 		)
 		(uuid "dfabfccc-333e-45ae-b75c-d695be0401e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.9243 58.42 0)
+			(at 117.6043 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,9 +1497,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "VOUT"
 		(shape input)
-		(at 101.6 64.77 0)
+		(at 113.03 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1396,9 +1507,9 @@
 			)
 			(justify left)
 		)
-		(uuid "fcf74bdc-fb67-46cb-bd20-b0ccf86b805a")
+		(uuid "e36f7793-56d8-4bf5-9f3c-45321a387121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4557 64.77 0)
+			(at 120.7324 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,33 +1520,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63203WU")
-		(at 57.15 57.15 0)
+		(lib_id "Device:C")
+		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08c481ea-16f1-43f1-a300-b32e8e97ca0c")
-		(property "Reference" "U2"
-			(at 57.15 46.99 0)
+		(uuid "13a511b7-8d69-43e5-a75b-73eeae0855a6")
+		(property "Reference" "C0"
+			(at 106.68 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "AP63203WU"
-			(at 57.15 49.53 0)
+		(property "Value" "15uF"
+			(at 106.68 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 57.15 80.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 103.8352 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,8 +1556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 57.15 57.15 0)
+		(property "Datasheet" "C2012X7S1A156M125AC"
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 57.15 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,44 +1575,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc9b2464-fb5d-4899-aaec-4621624481c5")
+			(uuid "26c6470e-3602-4f14-a5d8-49171bfa36ce")
 		)
 		(pin "2"
-			(uuid "77370318-1019-4212-896c-f8e98af1641c")
-		)
-		(pin "3"
-			(uuid "43495967-3ab2-434e-a5e8-b4b189e08b44")
-		)
-		(pin "4"
-			(uuid "b52de67a-acb7-46e4-8a71-0d6fa1d4310e")
-		)
-		(pin "5"
-			(uuid "bd292ed6-20e8-4162-9f6c-f18e7c4b3ad6")
-		)
-		(pin "6"
-			(uuid "c15c5294-adbe-474d-ab29-fc30aa3fabf6")
+			(uuid "d3c1ba53-d28f-4f8e-973b-9c746695a2fd")
 		)
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "U2")
+					(reference "C0")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 101.6 40.64 0)
+		(lib_id "Device:R")
+		(at 120.65 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e80d726-a3a6-4c2a-8f83-01154724065d")
-		(property "Reference" "#PWR019"
-			(at 101.6 44.45 0)
+		(uuid "25e268c4-c87f-4b66-8552-56e4aebc1362")
+		(property "Reference" "R4"
+			(at 120.65 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "432K"
+			(at 120.65 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 120.65 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,16 +1624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 101.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 40.64 0)
+		(property "Datasheet" "RC0805FR-07432KL"
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,8 +1633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 101.6 40.64 0)
+		(property "Description" "Resistor"
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,22 +1642,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "6f6d13cc-5df6-4768-93b1-730f3231c4e6")
 		)
 		(pin "1"
-			(uuid "a794a78e-931e-4760-9ab6-1af6e1c1b842")
+			(uuid "d7ddd757-87a0-4fcc-bc54-3f1fa410cbba")
 		)
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR019")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1556,15 +1659,15 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 39.37 72.39 0)
+		(at 102.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c9791a7-433a-41c3-80de-910ac5eebe75")
-		(property "Reference" "#PWR023"
-			(at 39.37 78.74 0)
+		(uuid "26354df4-78a1-49d9-8759-d2edb9de1c9f")
+		(property "Reference" "#PWR03"
+			(at 102.87 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 76.2 0)
+			(at 102.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 72.39 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 72.39 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 39.37 72.39 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,29 +1711,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "9afcafc8-5fab-40bb-a3c6-2aa5a5d38eb8")
+			(uuid "8ef78ad7-1018-499d-929d-3d325fecd982")
 		)
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR023")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 50.8 0)
+		(lib_id "Device:R")
+		(at 90.17 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "79d42051-34c6-4ef3-b313-a0b7a0272750")
-		(property "Reference" "C13"
-			(at 93.98 49.5299 0)
+		(uuid "62bb6fab-7501-49c0-a575-234041057afd")
+		(property "Reference" "R2"
+			(at 92.71 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,8 +1741,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 93.98 52.0699 0)
+		(property "Value" "90.9K"
+			(at 92.71 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,8 +1750,76 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 91.1352 54.61 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.392 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RMCF0805FT90K9"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adbdd2cf-10c8-4fac-97a8-038ad40f60b4")
+		)
+		(pin "1"
+			(uuid "fc9ea150-6449-42f4-8bc7-7dcbf18f82fd")
+		)
+		(instances
+			(project "megaphone-low-current-dc-dc-converter"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 90.17 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74807bdd-6117-4d17-b437-095fc41aba42")
+		(property "Reference" "#PWR04"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 50.8 0)
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,8 +1836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 90.17 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 90.17 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,49 +1846,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d4d964c-004c-4af7-b9a5-5d13b10b9b59")
-		)
-		(pin "2"
-			(uuid "4daf193a-bfbb-4791-a333-aceac4fa0777")
+			(uuid "1e0d3c26-f4f8-4b47-8373-b15fe6c22a1e")
 		)
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "C13")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 39.37 60.96 180)
+		(lib_id "power:Earth")
+		(at 80.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a32e0195-8931-487d-844e-e5f06467e6a1")
-		(property "Reference" "C11"
-			(at 33.274 60.96 0)
+		(uuid "8c81d2b2-b71d-4600-834b-a5c6761559a9")
+		(property "Reference" "#PWR02"
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "10uF"
-			(at 33.274 63.246 0)
+		(property "Value" "GND"
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 38.4048 57.15 0)
+		(property "Footprint" ""
+			(at 80.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1893,143 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 60.96 0)
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19f2fa1c-99a2-47db-9650-cb56215383f4")
+		)
+		(instances
+			(project "megaphone-low-current-dc-dc-converter"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c095355-a990-4cc9-bb50-eb56a294e944")
+		(property "Reference" "R1"
+			(at 92.71 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510K"
+			(at 92.71 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.392 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CR10514J"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da6648be-fa01-4942-a485-edd765cf7cef")
+		)
+		(pin "1"
+			(uuid "648145cc-80aa-42d0-9b5c-a5c36f12ecc2")
+		)
+		(instances
+			(project ""
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a32e0195-8931-487d-844e-e5f06467e6a1")
+		(property "Reference" "C1"
+			(at 26.924 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 26.924 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 32.0548 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM219R60J476ME44"
+			(at 33.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 60.96 0)
+			(at 33.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,49 +2055,50 @@
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "C11")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 81.28 43.18 90)
+		(lib_id "TPS631000DRLR:TPS631000DRLR")
+		(at 64.77 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8c21cee-ac9a-4352-a3b7-97ba98df5e3d")
-		(property "Reference" "L2"
-			(at 81.28 38.1 90)
+		(uuid "bd2adc2e-1871-40d9-b115-fd20b0b977a9")
+		(property "Reference" "U1"
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7uH"
-			(at 81.28 40.64 90)
+		(property "Value" "TPS631000DRLR"
+			(at 64.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm"
-			(at 81.28 43.18 0)
+		(property "Footprint" "megaphone-low-current-dc-dc-converter:SOT50P160X60-8N"
+			(at 64.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IFSC1515AHER4R7M01"
-			(at 81.28 43.18 0)
+		(property "Datasheet" ""
+			(at 64.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +2107,291 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 43.18 0)
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "124400"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-583 Texas Instruments"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=eda"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS631000DRLR/Texas+Instruments/view-part/?ref=snap"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS631000DRLR"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            1.5-A output current, high-power-density buck-boost converter\n                        \n"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dfa9a5cc-8748-46a5-9001-53c59534fbad")
+		)
+		(pin "6"
+			(uuid "db451aba-2e5f-4649-a383-519dc4650785")
+		)
+		(pin "5"
+			(uuid "78b4578f-4cc1-4c93-a843-a73a792bb88f")
+		)
+		(pin "8"
+			(uuid "2421280c-e888-4d54-82f7-6f5fc8d27a63")
+		)
+		(pin "1"
+			(uuid "5fde749a-3611-4b7c-a4d5-7aa4c9df3cb8")
+		)
+		(pin "2"
+			(uuid "e94cb5b7-01a9-4082-b69a-6e6528515b4f")
+		)
+		(pin "4"
+			(uuid "c7115181-77a7-450b-b0bc-cd051ee0e33d")
+		)
+		(pin "7"
+			(uuid "b996c84f-afb5-4edc-9a90-a20abe4c5397")
+		)
+		(instances
+			(project ""
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c480a51b-90bb-4e7f-b69a-fc7106ea412a")
+		(property "Reference" "R3"
+			(at 43.18 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510K"
+			(at 43.18 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 43.18 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CR10514J"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82b67dda-001e-4b89-9bf3-84ecc1c92d53")
+		)
+		(pin "1"
+			(uuid "7e964f59-6eba-46bd-9e37-886b7df234b6")
+		)
+		(instances
+			(project "megaphone-low-current-dc-dc-converter"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 83.82 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c21cee-ac9a-4352-a3b7-97ba98df5e3d")
+		(property "Reference" "L1"
+			(at 83.82 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uH"
+			(at 83.82 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DFE252012P-1R0M=P2"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2408,7 @@
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -1828,7 +2416,7 @@
 	)
 	(symbol
 		(lib_id "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183")
-		(at 151.13 49.53 0)
+		(at 130.81 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1837,7 +2425,7 @@
 		(fields_autoplaced yes)
 		(uuid "e47e0a79-811c-4c6f-8346-cdcd911c8264")
 		(property "Reference" "M1"
-			(at 151.765 34.29 0)
+			(at 131.445 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,15 +2433,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 151.765 36.83 0)
+			(at 131.445 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183"
-			(at 151.13 66.04 0)
+		(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8183-PANEL-NIBBLE"
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 44.45 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +2459,7 @@
 			)
 		)
 		(property "Description" "Generated using footprint-gen .. 7 14 5 M8183"
-			(at 151.13 49.53 0)
+			(at 130.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,35 +2492,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 50.8 0)
+		(lib_id "power:Earth")
+		(at 33.02 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e90937d2-c7ab-4a6c-af43-e2a2bc2deef7")
-		(property "Reference" "C14"
-			(at 105.41 49.5299 0)
+		(uuid "f60b20fb-4317-48cc-b6c8-343695cd3227")
+		(property "Reference" "#PWR01"
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "22uF"
-			(at 105.41 52.0699 0)
+		(property "Value" "GND"
+			(at 33.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 102.5652 54.61 0)
+		(property "Footprint" ""
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 50.8 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,78 +2535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9d330f0-47f9-4e4a-ad78-02c8a97d8c7a")
-		)
-		(pin "2"
-			(uuid "8aba144e-1f56-4f8b-8f37-160af74b0b00")
-		)
-		(instances
-			(project "megaphone-low-current-dc-dc-converter"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f606eefc-d21c-49a7-b960-aa1083fe334f")
-		(property "Reference" "C12"
-			(at 80.01 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 80.01 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.1652 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,15 +2545,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4cfb0491-2baf-428d-af67-67707542fb18")
-		)
-		(pin "2"
-			(uuid "6f0bd573-30c6-4b39-92fc-8b2e52cd60f5")
+			(uuid "1b6ec7c6-c276-49a3-b74e-e8cdf108eb64")
 		)
 		(instances
 			(project "megaphone-low-current-dc-dc-converter"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "C12")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
