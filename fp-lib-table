@@ -3,4 +3,5 @@
   (lib (name "MPPT Charge Controller Footprint Library")(type "KiCad")(uri "${KIPRJMOD}/MPPT Charge Controller Footprint Library.pretty")(options "")(descr ""))
   (lib (name "MegaCastle")(type "KiCad")(uri "/home/paul/Projects/mega65/mega65-modular-megaphone/MegaCastle.pretty")(options "")(descr ""))
   (lib (name "megaphone-low-current-dc-dc-converter")(type "KiCad")(uri "/home/paul/Projects/mega65/mega65-modular-megaphone/modules/megaphone-low-current-dc-dc-converter")(options "")(descr ""))
+  (lib (name "megaphone-low-current-dc-dc-converter Footprint Library")(type "KiCad")(uri "${KIPRJMOD}/megaphone-low-current-dc-dc-converter Footprint Library.pretty")(options "")(descr ""))
 )

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6fccb5b0-46ff-4014-9169-aa61e4064f3f")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -85,7 +87,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -97,7 +99,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -146,11 +148,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -217,32 +224,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -254,8 +237,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -303,9 +310,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -424,6 +434,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187"
 			(exclude_from_sim no)
@@ -524,6 +535,42 @@
 					)
 				)
 				(pin bidirectional line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name ""
@@ -577,43 +624,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -6.35 -8.89 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 8.89 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TPS631000DRLR:TPS631000DRLR"
 			(pin_names
@@ -810,60 +822,6 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "LX2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "LX1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -15.24 10.16 0)
 					(length 5.08)
@@ -875,24 +833,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -918,17 +858,71 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
+				(pin input line
+					(at -15.24 0 0)
 					(length 5.08)
-					(name "GND"
+					(name "EN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "LX1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "LX2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -954,13 +948,36 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1087,7 +1104,40 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "VFB = 0.5V\nR2 <= 100K. 91K recommended\n\nR1 = R2 × (VOUT / VFB - 1)\n1.8V :    R1 = R2 * (1.8 / 0.5 - 1) = R2 * 2.6   = 234K\n3.3V :    R1 = R2 * (3.3 / 0.5 - 1) = R2 * 5.6   = 511K\n\nSo SEL1V8 should tie FB to VOUT with a resistor that in\nparallel to 511K yields 234K.\n\n1/RP = 1/R + 1/R\n1/260K = 1/R + 1/511K\n1/R = 1/234K - 1/511K\n1/R = ~1/436K\nR = ~436K"
+		(exclude_from_sim no)
+		(at 26.67 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10a32e13-57a8-4d33-9de1-28eaabfa2ab2")
+	)
+	(text "Actual values = 90.9K, 510K, so VFB = 0.5V at junction means\nVOUT = (1 + 510K/90.9K) * 0.5V = 3.305V\nAnd with SEL1V8 tied to VOUT:\n1/R = 1/510K + 1/432K = 233.8K\nVOUT = (1 + 233.8K/90.9K) * 0.5V = 1.79V\nClose enough..."
+		(exclude_from_sim no)
+		(at 96.012 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e590bfad-a965-4b52-86bc-a4bbea0ba82a")
+	)
+	(text "Tie to VOUT to select 1.8V output"
+		(exclude_from_sim no)
+		(at 124.714 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee2f29ae-4903-4b84-b83e-479815de523c")
 	)
 	(junction
 		(at 90.17 91.44)
@@ -1284,38 +1334,6 @@
 			(type default)
 		)
 		(uuid "ee6a7d46-94b3-4acf-a609-1f1c1ab1627c")
-	)
-	(text "VFB = 0.5V\nR2 <= 100K. 91K recommended\n\nR1 = R2 × (VOUT / VFB - 1)\n1.8V :    R1 = R2 * (1.8 / 0.5 - 1) = R2 * 2.6   = 234K\n3.3V :    R1 = R2 * (3.3 / 0.5 - 1) = R2 * 5.6   = 511K\n\nSo SEL1V8 should tie FB to VOUT with a resistor that in\nparallel to 511K yields 234K.\n\n1/RP = 1/R + 1/R\n1/260K = 1/R + 1/511K\n1/R = 1/234K - 1/511K\n1/R = ~1/436K\nR = ~436K"
-		(exclude_from_sim no)
-		(at 26.67 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10a32e13-57a8-4d33-9de1-28eaabfa2ab2")
-	)
-	(text "Actual values = 90.9K, 510K, so VFB = 0.5V at junction means\nVOUT = (1 + 510K/90.9K) * 0.5V = 3.305V\nAnd with SEL1V8 tied to VOUT:\n1/R = 1/510K + 1/432K = 233.8K\nVOUT = (1 + 233.8K/90.9K) * 0.5V = 1.79V\nClose enough..."
-		(exclude_from_sim no)
-		(at 96.012 125.984 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e590bfad-a965-4b52-86bc-a4bbea0ba82a")
-	)
-	(text "Tie to VOUT to select 1.8V output"
-		(exclude_from_sim no)
-		(at 124.714 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ee2f29ae-4903-4b84-b83e-479815de523c")
 	)
 	(global_label "SEL1V8"
 		(shape input)
@@ -1923,7 +1941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MegaCastle:MegaCastle2x8-Module-I7.0x15.5-M8187-PANEL-NIBBLE"
+		(property "Footprint" "megaphone-low-current-dc-dc-converter Footprint Library:MegaCastle2x8-Module-I15.0x15.5-M8187-SPAREPAD"
 			(at 85.09 81.28 0)
 			(effects
 				(font
@@ -2604,4 +2622,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
